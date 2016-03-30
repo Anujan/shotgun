@@ -2,8 +2,7 @@
 
 -include_lib("mixer/include/mixer.hrl").
 -mixin([{ http_base_handler,
-          [ init/3
-          , rest_init/2
+          [ init/2
           , content_types_accepted/2
           , content_types_provided/2
           , resource_exists/2
